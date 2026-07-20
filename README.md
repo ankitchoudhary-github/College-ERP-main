@@ -1,23 +1,13 @@
 # College-ERP-main
 A College ERP Project taken as a Minor Project in college
-Technologies and tools used:
-  asgiref==3.7.2
-  certifi==2023.11.17
-  charset-normalizer==3.3.2
-  distlib==0.3.7
-  dj-database-url==2.1.0
-  Django==5.0
-  filelock==3.13.1
-  gunicorn==21.2.0
-  idna==3.6
-  mysql-connector==2.2.9
-  packaging==23.2
-  Pillow==10.1.0
-  platformdirs==4.1.0
-  requests==2.31.0
-  sqlparse==0.4.4
-  typing_extensions==4.9.0
-  urllib3==2.1.0
-  virtualenv==20.25.0
-  whitenoise==6.6.0
+
+**Instructions**
+- Install the Requirements: pip install -r requirements.txt
+- Then, make database migrations: python manage.py makemigrations
+- python manage.py migrate
+- And finally, run the application: python manage.py runserver
+
+
+**For Admin Login Credentials, please create one using superuser!**
+
 
